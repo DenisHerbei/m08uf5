@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>PT1</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Dilluns</th>
+            <th>Dimarts</th>
+            <th>Dimecres</th>
+            <th>Dijous</th>
+            <th>Divendres</th>
+        </tr>
+    </table>
+</body>
+</html>
