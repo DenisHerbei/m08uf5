@@ -1,5 +1,6 @@
 table {
-    border:1px solid black;       
+    border:1px solid black;   
+    align-items: center;    
     }
     th {
     border:1px solid black;       
