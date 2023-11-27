@@ -1,6 +1,6 @@
 table {
     border:1px solid black;   
-    align-items: center;    
+    align-self: center;
     }
     th {
     border:1px solid black;       
