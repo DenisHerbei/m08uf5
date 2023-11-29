@@ -10,28 +10,42 @@ table {
     border:1px solid black; 
     width: 180px;
     height: 30px;
-    border-image: url(https://static.vecteezy.com/system/resources/thumbnails/010/833/930/small/fault-square-neon-effect-border-transparent-background-png.png) 10 round;
-    border: 2px solid transparent;
+    background-image: url(https://64.media.tumblr.com/88025a4c5fb08fa35d673be0d6901aa7/tumblr_inline_pmu29x9wnx1wuj82d_250.gif);
+    background-size: cover;
     }
     td {
     border:1px solid black;
-    text-align: center;       
+    text-align: center;
+    background-image: url(https://64.media.tumblr.com/88025a4c5fb08fa35d673be0d6901aa7/tumblr_inline_pmu29x9wnx1wuj82d_250.gif);
+    background-size: cover;       
     }
 .m08 {
-
+background-image: url(https://i0.wp.com/media.tenor.com/iHQ4XQRTEckAAAAC/garou-punches-saitama-one-punch-man.gif);
+background-size: cover;
+color: blanchedalmond;
 }
 .m07 {
-
+    background-image: url(https://media.tenor.com/6zOE64u1nmcAAAAd/warframe-excalbur-umbra.gif);
+    background-size: cover;
+    color: blanchedalmond;
 }
 .m06 {
-
+    background-image: url(https://media.tenor.com/Z3EnmDSZ2tYAAAAd/overlord-ainz-ooal-gown.gif);
+    background-size: cover;
+    color: blanchedalmond;
 }
 .m12 {
-
+    background-image: url(https://i.makeagif.com/media/9-05-2017/LHVD9h.gif);
+    background-size: cover;
+    color: blanchedalmond;
 }
 .m04 {
-
+    background-image: url(https://media.tenor.com/gVxPT3MLb1AAAAAd/dead-mount-death-play.gif);
+    background-size: cover;
+    color: blanchedalmond;
 }
 .tut {
-
+    background-image: url(https://static.wikia.nocookie.net/radiant-series/images/e/e5/Seth_Awakening.gif);
+    background-size: cover;
+    color: blanchedalmond;
 }
