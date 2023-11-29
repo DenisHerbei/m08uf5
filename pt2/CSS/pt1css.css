@@ -10,8 +10,8 @@ table {
     border:1px solid black; 
     width: 180px;
     height: 30px;
-    border-image: url(https://img.freepik.com/fotos-premium/ilustracion-3d-espacio-galaxia-cosmos-estrellas-majestuosas-brillantes_564714-380.jpg);
-    border: 5px;
+    border-image: url(https://static.vecteezy.com/system/resources/thumbnails/010/833/930/small/fault-square-neon-effect-border-transparent-background-png.png) 10 round;
+    border: 2px solid transparent;
     }
     td {
     border:1px solid black;
