@@ -3,6 +3,7 @@ table {
     margin: 25% auto;
     width: 1000px;
     height: 500px;
+    border-image: url(https://img.freepik.com/fotos-premium/fondo-lava-abstracta-magma-volcanico_167650-2593.jpg);
     }
     th {
     border:1px solid black; 
