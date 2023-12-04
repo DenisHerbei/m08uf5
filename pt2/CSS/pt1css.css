@@ -6,14 +6,14 @@ table {
     background-image: url(https://img.freepik.com/fotos-premium/fondo-lava-abstracta-magma-volcanico_167650-2593.jpg);
     background-size: cover;
     }
-    th {
+th {
     border:1px solid black; 
     width: 180px;
     height: 30px;
     background-image: url(https://64.media.tumblr.com/88025a4c5fb08fa35d673be0d6901aa7/tumblr_inline_pmu29x9wnx1wuj82d_250.gif);
     background-size: cover;
     }
-    td {
+td {
     border:1px solid black;
     text-align: center;
     background-image: url(https://64.media.tumblr.com/88025a4c5fb08fa35d673be0d6901aa7/tumblr_inline_pmu29x9wnx1wuj82d_250.gif);
