@@ -23,31 +23,37 @@ table {
 background-image: url(https://i0.wp.com/media.tenor.com/iHQ4XQRTEckAAAAC/garou-punches-saitama-one-punch-man.gif);
 background-size: cover;
 color: blanchedalmond;
+font-family: sans-serif;
 }
 .m07 {
     background-image: url(https://media.tenor.com/6zOE64u1nmcAAAAd/warframe-excalbur-umbra.gif);
     background-size: cover;
     color: blanchedalmond;
+    font-family: 'Gill Sans';
 }
 .m06 {
     background-image: url(https://media.tenor.com/Z3EnmDSZ2tYAAAAd/overlord-ainz-ooal-gown.gif);
     background-size: cover;
     color: blanchedalmond;
+    font-family: 'Lucida Sans';
 }
 .m12 {
     background-image: url(https://i.makeagif.com/media/9-05-2017/LHVD9h.gif);
     background-size: cover;
     color: blanchedalmond;
+    font-family: 'Gill Sans MT';
 }
 .m04 {
     background-image: url(https://media.tenor.com/gVxPT3MLb1AAAAAd/dead-mount-death-play.gif);
     background-size: cover;
     color: blanchedalmond;
+    font-family: 'Lucida Sans Unicode';
 }
 .tut {
     background-image: url(https://static.wikia.nocookie.net/radiant-series/images/e/e5/Seth_Awakening.gif);
     background-size: cover;
     color: blanchedalmond;
+    font-family: 'Lucida Sans Regular';
 }
 #icono {
     width: 50px;
