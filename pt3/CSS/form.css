@@ -1,5 +1,8 @@
-form {
+#form {
     margin: auto;
     height: auto;
     width: 500px;
+}
+#yname {
+text-size-adjust: 14;
 }
