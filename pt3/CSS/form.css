@@ -3,6 +3,16 @@
     height: auto;
     width: 500px;
 }
-#yname {
-text-size-adjust: 16;
+#fs1 {
+background-color: aqua;
 }
+#fs2 {
+    background-color: red;
+    }
+#fs3 {
+    background-color: violet;
+}
+#fs4 {
+    background-color: goldenrod;
+}
+#yname {}
