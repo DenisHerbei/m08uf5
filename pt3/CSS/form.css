@@ -4,13 +4,16 @@
     width: 500px;
 }
 #fs1 {
-background-color: aqua;
+    background-color: aqua;
+    font-size: 18px;
 }
 #fs2 {
     background-color: red;
+    font-size: 18px;
     }
 #fs3 {
     background-color: violet;
+    font-size: 18px;
 }
 #fs4 {
     background-color: goldenrod;
