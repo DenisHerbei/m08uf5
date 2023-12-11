@@ -5,30 +5,30 @@
     <link rel="stylesheet" href="CSS/form.css">
 </head>
 <body>
-    <form id="form">
+    <form id="form" action="PHP/form.php">
         <fieldset id="fs1">
-            <legend><h1>Infromacion Basica</h1></legend>
-            <label for="yname">Nombre</label><br>
-            <input type="text" id="yname" name="yname" placeholder="Introduce tu nombre aqui"><br>
-            <label for="cent">Altrura en centimetros</label><br>
-            <input type="number" id="cent" name="cent" placeholder="176" min="60" max="220"><br>
-            <label for="mail">email</label><br>
-            <input type="email" id="mail" name="mail" placeholder="tucorreo@dominio.algo"><br>
-            <label for="bdate">Fecha de Nacimiento</label><br>
-            <input type="date" id="bdate" name="bdate" placeholder="dd/mm/aaaa"><br><br>
+            <legend><h1>Informacián Basica</h1></legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aqui"><br>
+            <label for="altura">Altrura en centimetros</label><br>
+            <input type="number" id="altura" name="altura" placeholder="176" min="60" max="220"><br>
+            <label for="email">email</label><br>
+            <input type="email" id="email" name="email" placeholder="tucorreo@dominio.algo"><br>
+            <label for="fecha">Fecha de Nacimiento</label><br>
+            <input type="date" id="fecha" name="fecha" placeholder="dd/mm/aaaa"><br><br>
         </fieldset>
         <fieldset id="fs2">
             <legend><h1>Nacionalidad</h1></legend>
             <label for="esp">Española</label>
-            <input type="radio" id="esp" name="esp">
+            <input type="radio" id="nacionalidad" name="nacionalidad">
             <label for="ue">Comunitario(UE)</label>
-            <input type="radio" id="ue" name="ue">
+            <input type="radio" id="nacionalidad" name="nacionalidad">
             <label for="nc">No comunitario</label>
-            <input type="radio" id="nc" name="nc"><br><br>
+            <input type="radio" id="nacionalidad" name="nacionalidad"><br><br>
         </fieldset>
         <fieldset id="fs3">
             <legend><h1>Estudios</h1></legend>
-            <select id="est">
+            <select id="estudios">
                 <option value="gm">Grado Medio</option>
                 <option value="gs">Grado Superior</option>
                 <option value="eso">ESO</option>
@@ -39,13 +39,13 @@
         </fieldset>
         <fieldset id="fs4">
             <legend><h1>Idiomas</h1></legend>
-            <input type="checkbox" id="cat" name="cat">
+            <input type="checkbox" id="idiomas" name="idiomas">
             <label for="cat">Catalan</label>
-            <input type="checkbox" id="cas" name="cas">
+            <input type="checkbox" id="idiomas" name="idiomas">
             <label for="cas">Castellano</label>
-            <input type="checkbox" id="ing" name="ing">
+            <input type="checkbox" id="idiomas" name="idiomas">
             <label for="ing">Ingles</label>
-            <input type="checkbox" id="ita" name="ita">
+            <input type="checkbox" id="idiomas" name="idiomas">
             <label for="ita">Italiano</label><br><br>
         </fieldset>
         <input type="submit" value="Enviar">
