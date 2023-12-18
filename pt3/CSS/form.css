@@ -19,6 +19,13 @@
     background-color: goldenrod;
     font-size: 18px;
 }
-.legend2 {
+legend {
     color: blue;
+}
+#lg2 {
+    color: orange;
+}
+
+#lg4 {
+    color: red;
 }
