@@ -1,5 +1,7 @@
 body {
-    background-image:url(IMG/GANON.gif);
+    background-image: url(IMG/GANON.gif);
+    width: 100%;
+    height: 100%;
     background-size: cover;
 }
 #form {
