@@ -19,3 +19,6 @@
     background-color: goldenrod;
     font-size: 18px;
 }
+legend {
+    text-decoration-color: blue;
+}
