@@ -8,7 +8,7 @@
     font-size: 18px;
 }
 #fs2 {
-    background-color: red;
+    background-color: lightgreen;
     font-size: 18px;
     }
 #fs3 {
@@ -21,11 +21,14 @@
 }
 legend {
     color: blue;
+    font-style: italic;
 }
 #lg2 {
     color: orange;
+    font-style: italic;
 }
 
 #lg4 {
     color: red;
+    font-style: italic;
 }
