@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: 100%;
     background-size: repeat;
-    animation: RGB2 5s infinite;
+    animation: RGB2 4s infinite;
 }
 #form {
     margin: auto;
@@ -28,8 +28,7 @@ body {
 #fs4 {
     background-color: goldenrod;
     font-size: 18px;
-    border-width: 5px;
-    animation: RGB 5s infinite;
+    border-color: lightseagreen;
 }
 legend {
     color: blue;
@@ -44,13 +43,7 @@ legend {
     color: red;
     font-style: italic;
 }
-@keyframes RGB {
-    0% { border-color: red; }
-    25% { border-color: blue; }
-    50% { border-color: green; }
-    75% { border-color: orange; }
-    100% { border-color: red; }
-}
+
 @keyframes RGB2 {
     0% { background-color: red; }
     25% { background-color: blue; }
