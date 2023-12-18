@@ -12,7 +12,7 @@
             <label for="nombre">Nombre</label><br>
             <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre aqui"><br>
             <label for="altura">Altrura en centimetros</label><br>
-            <input type="number" id="altura" name="altura" placeholder="176" min="60" max="220"><br>
+            <input type="number" id="altura" name="altura" placeholder="176" min="60" max="300"><br>
             <label for="email">email</label><br>
             <input type="email" id="email" name="email" placeholder="tucorreo@dominio.algo"><br>
             <label for="fecha">Fecha de Nacimiento</label><br>
@@ -29,7 +29,7 @@
         </fieldset>
         <fieldset id="fs3">
             <legend><h1>Estudios</h1></legend>
-            <select id="estudios">
+            <select id="estudios" name="estudios">
                 <option value="gm">Grado Medio</option>
                 <option value="gs">Grado Superior</option>
                 <option value="eso">ESO</option>
@@ -40,13 +40,13 @@
         </fieldset>
         <fieldset id="fs4">
             <legend><h1>Idiomas</h1></legend>
-            <input type="checkbox" id="cat" name="idiomas">
+            <input type="checkbox" id="cat" name="idiomas[]">
             <label for="cat">Catalan</label>
-            <input type="checkbox" id="cas" name="idiomas">
+            <input type="checkbox" id="cas" name="idiomas[]">
             <label for="cas">Castellano</label>
-            <input type="checkbox" id="ing" name="idiomas">
+            <input type="checkbox" id="ing" name="idiomas[]">
             <label for="ing">Ingles</label>
-            <input type="checkbox" id="ita" name="idiomas">
+            <input type="checkbox" id="ita" name="idiomas[]">
             <label for="ita">Italiano</label><br><br>
         </fieldset>
         <input type="submit" value="Enviar">
