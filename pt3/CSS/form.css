@@ -1,8 +1,8 @@
 body {
-    background-image: url(IMG/GANON.gif);
+    background-image: url(../IMG/GANON.gif);
     width: 100%;
     height: 100%;
-    background-size: cover;
+    background-size: repeat;
 }
 #form {
     margin: auto;
@@ -12,18 +12,23 @@ body {
 #fs1 {
     background-color: aqua;
     font-size: 18px;
+    border-color: gold;
 }
 #fs2 {
     background-color: lightgreen;
     font-size: 18px;
+    border-color: silver;
     }
 #fs3 {
     background-color: violet;
     font-size: 18px;
+    border-color: ;
 }
 #fs4 {
     background-color: goldenrod;
     font-size: 18px;
+    border-width: 5px;
+    animation: RGB 5s infinite;
 }
 legend {
     color: blue;
@@ -37,4 +42,11 @@ legend {
 #lg4 {
     color: red;
     font-style: italic;
+}
+@keyframes RGB {
+    0% { border-color: red; }
+    25% { border-color: blue; }
+    50% { border-color: green; }
+    75% { border-color: orange; }
+    100% { border-color: red; }
 }
