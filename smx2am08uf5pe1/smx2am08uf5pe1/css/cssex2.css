@@ -1,0 +1,22 @@
+#form {
+    margin: auto;
+    height: auto;
+    width: 500px;
+}
+#field1 {
+    background-color: aqua;
+   
+}
+#field2 {
+    background-color: crimson;
+}
+#lg1 {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+#lg2 {
+    background-color: black;
+    color: white;
+    height: 40px;
+}

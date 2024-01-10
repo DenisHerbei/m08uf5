@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <title>Títol de la pàgina</title>
+    <title>Ejercicio 2</title>
     <link rel="stylesheet" href="../css/cssex2.css">
 </head>
 <body>
-
+    <form id="form">
+        <h1>Informació de Producte</h1><br>
+        <fieldset id="field1">
+            <legend id="lg1" class="legend"><h3>Dades</h3></legend>
+            <label for="nompro">Nom producte</label><br>
+            <input type="text" id="nompro" name="nompro"><br>
+            <label for="despro">Descripció producte</label><br>
+            <input type="text" id="despro" name="despro" placeholder="descripció curta"><br>
+            <label for="foto">Foto</label><br>
+            <input type="file" id="file" name="fiel"><br>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="no">Sense foto</label>
+        </fieldset>
+        <fieldset id="field2">
+            <legend id="lg2" class="legend"><h3>Dades econòmiques</h3></legend>
+            <label for="preu">Preu</label>
+            <input type="number" id="preu" name="preu">
+            <label for="euro">€</label><br>
+            <label for="iva">Iva</label>
+            <select name="iva" id="iva">Iva
+                <option value="op1">0%</option>
+                <option value="op1">4%</option>
+                <option value="op1">5%</option>
+                <option value="op1">10%</option>
+                <option value="op1" selected>21%</option>
+            </select><br>
+            <label for="pro">Promoció:</label><br>
+            <input type="radio">
+            <label for="cap">Cap</label><br>
+            <input type="radio">
+            <label for="tra">Transport gratuït</label><br>
+            <input type="radio">
+            <label for="des">Descompte 5%</label><br>
+        </fieldset>
+    </form>
   
 </body>
 </html>
