@@ -1,5 +1,10 @@
 h1 {
     text-align: center;
     color: red;
-    
+    font-family: Arial;
+    font-size: 50px;
+}
+.xds {
+    font-family: 'Courier New';
+    font-size: 20px;
 }
