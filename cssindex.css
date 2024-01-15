@@ -1,5 +1,42 @@
 header {
     text-align: center;
-    background-image: url(img/BigBand1.gif);
+    background-image: url(img/Cristal_de_Arg\ 3Fn.png);
     background-size: contain;
+    color: green;
+}
+nav {
+    text-align: left;
+    font-size: 30px;
+    background-image: url(img/Sevagothgod.png);
+    background-size: auto;
+    background-position: 31%;
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+a {
+    animation: RGB2 2s infinite;
+}
+main {
+    color: white;
+    background-image: url(img/Excalibur\ umbra.jpg);
+    background-position: center;
+    float: left;
+    width: 50%;
+    padding: 13px;
+}
+#grendel1 {
+    height: 200px;
+    width: 200px;
+}
+#grendel2 {
+    height: 200px;
+    width: 200px;
+}
+@keyframes RGB2 {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
 }
