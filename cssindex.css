@@ -21,6 +21,7 @@ nav {
     height: 523px;
     padding: 1px;
     padding-left: 10px;
+    padding-top: 10px;
 }
 a {
     animation: RGB2 2s infinite;
