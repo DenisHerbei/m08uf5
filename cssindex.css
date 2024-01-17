@@ -1,18 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }  
 header {
     text-align: center;
-    background-image: url(img/Cristal_de_Arg\ 3Fn.png);
     background-size: contain;
-    color: green;
+    color: cyan;
 }
 nav {
     text-align: left;
-    font-size: 30px;
+    font-size: 29px;
     background-image: url(img/Sevagothgod.png);
     background-size: auto;
     background-position: 31%;
     float: left;
     width: 25%;
-    padding: 10px;
+    height: 523px;
+    padding: 1px;
+    padding-left: 10px;
 }
 a {
     animation: RGB2 2s infinite;
@@ -20,10 +28,36 @@ a {
 main {
     color: white;
     background-image: url(img/Excalibur\ umbra.jpg);
-    background-position: center;
+    background-size: cover;
     float: left;
     width: 50%;
-    padding: 13px;
+    padding: 1px;
+    height: 523px;
+    padding-left: 10px;
+}
+article {
+    background-image: url(img/Qorvex.png);
+    text-align: left;
+    background-size: auto;
+    background-position: 60%;
+    float: left;
+    width: 25%;
+    color: beige;
+    height: 523px;
+    padding: 1px;
+    padding-left: 10px;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+footer {
+    text-align: center;
+    color: gold;
+    background-image: url(img/Gaussprime.png);
+    height: 150px;
+    background-size: cover;
 }
 #grendel1 {
     height: 200px;
