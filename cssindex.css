@@ -4,12 +4,33 @@
   
   body {
     margin: 0;
-  }  
+  } 
+#bruh {
+    height: 80px;
+    width: 80px;
+}
 header {
-    text-align: center;
     background-size: contain;
     color: cyan;
 }
+#title {
+    text-align: center;
+}
+.div-img {
+    float: left;
+    width: 10%;
+}
+.div-title {
+    float: left;
+    width: 90%;
+    padding-right: 12%;
+}
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 nav {
     text-align: left;
     font-size: 29px;
@@ -67,6 +88,13 @@ footer {
 #grendel2 {
     height: 200px;
     width: 200px;
+}
+#sev2 {
+    height: 300px;
+    width: 200px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 20px;
 }
 @keyframes RGB2 {
     0% { color: red; }
