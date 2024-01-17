@@ -48,7 +48,7 @@ article {
     padding: 1px;
     padding-left: 10px;
 }
-section::after {
+.section::after {
     content: "";
     display: table;
     clear: both;
